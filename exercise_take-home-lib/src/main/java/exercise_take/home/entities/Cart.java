@@ -1,0 +1,70 @@
+package exercise_take.home.entities;
+
+import java.util.List;
+
+public class Cart {
+	private int id;
+	private int userId;
+	private List<Product> products;
+	private int total;
+	private int discountedTotal;
+	private int totalProducts;
+	private int totalQuantity;
+
+	public int getTotal() {
+		return total;
+	}
+
+	public void setTotal(int total) {
+		this.total = total;
+	}
+
+	public int getDiscountedTotal() {
+		return discountedTotal;
+	}
+
+	public void setDiscountedTotal(int discountedTotal) {
+		this.discountedTotal = discountedTotal;
+	}
+
+	public int getTotalProducts() {
+		return totalProducts;
+	}
+
+	public void setTotalProducts(int totalProducts) {
+		this.totalProducts = totalProducts;
+	}
+
+	public int getTotalQuantity() {
+		return totalQuantity;
+	}
+
+	public void setTotalQuantity(int totalQuantity) {
+		this.totalQuantity = totalQuantity;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getUserId() {
+		return userId;
+	}
+
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+
+	public List<Product> getProducts() {
+		return products;
+	}
+
+	public void setProducts(List<Product> products) {
+		this.products = products;
+	}
+
+}
